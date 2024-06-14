@@ -6,7 +6,6 @@ A Django web application that reads Braille from images and translates it into r
 
 - [Features](#features)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
