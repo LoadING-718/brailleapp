@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Braille Translation Result</title>
+</head>
+<body>
+    <h1>Braille Translation Result</h1>
+    <img src="{{ braille_image.image.url }}" alt="Braille Image">
+    <p>Translated Text: {{ braille_image.translated_text }}</p>
+    <a href="{% url 'upload_image' %}">Upload another image</a>
+</body>
+</html>
